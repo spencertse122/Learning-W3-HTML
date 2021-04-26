@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>19 - HTML Image Maps</title>
+	<link rel="stylesheet" href="014_styles.css">
+</head>
+
+<body>
+	<h1>Image mapping</h1>
+	<p>Imaging mapping is used to link portion of the picture to a different page</p>
+	<p>This is an example of how it works</p>
+	<map name="workmap">
+		<area shape="rect" coords="34, 44, 270, 350" alt="Computer" href="https://www.google.com">
+		<area shape="rect" coords="290, 172, 333, 250" alt="Phone" href="https://www.bing.com">
+		<area shape="circle" coords="337, 330, 44" alt="Coffee" href="https://www.python.org">
+	</map>
+	<img src="https://cdn.vox-cdn.com/thumbor/uKKr0W08KEfCKPs3BiNR-ROo-dY=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21940788/Digimon_Adventure_2020_episode_6.jpg" alt="Digimon" usemap="#workmap", style="width:500px;">
+	
+	<p>rect - rectangle</p>
+	<p>circle - circular</p>
+	<p>poly - polygonal</p>
+	<p>default - defines the entire region</p>
+	<h1>Image Map and JavaScript</h1>
+	<map name="workmap2">
+		<area shape="circle" coords="337, 300, 44" onclick="myFunction()">
+	</map>
+	
+	<script>
+		function myFunction() {
+				alert("You clicked the coffee cup!");
+		}
+	</script>
+	<img src="https://www.w3schools.com/html/workplace.jpg" title="W3 demo image" style="width:500px;" usemap="#workmap">
+	
+</body>
+
+</html>
+

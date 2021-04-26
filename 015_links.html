@@ -1,0 +1,48 @@
+<!DOCTYLE html>
+<html>
+<head>
+	<title>15 - links</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+</head>
+
+
+<!--	_self - Default. Opens the document in the same window/tab as it was clicked-->
+<!--	_blank - Opens the document in a new window or tab-->
+<!--	_parent - Opens the document in the parent frame-->
+<!--	_top - Opens the document in the full body of the window-->
+
+
+<body>
+	<h1>HTML Links - Syntax and where to open the link</h1>
+	<p>
+		Example: 
+		<br>
+		<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+		<br>
+		<a href="https://www.w3schools.com" target="_self">This will be opening on the same page</a>
+		<br>
+		<a href="https://www.w3schools.com" target="_blank">This will open in new window</a>
+		<br>
+		<a href="https://www.w3schools.com" target="_parent">This will be in the parent frame, not sure what it is</a>
+		<br>
+		<a href="https://www.w3schools.com" target="_top">This will be on full body of the window</a> 
+	</p>
+	<h1>Absolute URLs vs Relative URLS</h1>
+		<h2>Absolute URLs</h2>
+			<p><a href="https://www.w3.org/">W3C</a></p>
+			<p><a href="https://www.google.com/">Google</a></p>
+		<h2>Relative URLs</h2>
+			<p><a href="html_images.asp">HTML Images</a></p>
+			<p><a href="/css/default.asp">CSS Tutorial</a></p>
+	<h1>HTML Links - use an image as a link</h1>
+		<a href="https://www.google.com">
+			<img src="https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY1200_CR71,0,630,1200_AL_.jpg" alt="Starwars Picture" style="width:420px;">
+
+	<h1>Link to an Email Address</h1>
+		<a href="mailto:panpan_tse@hotmail.com">Send Email</a>
+	<h1>Button as a link</h1>
+		<button onclick="document.location='default.asp'">HTML Tutorial</button>
+	<h1>Addin a tooltip</h1>
+		<a href="https://www.google.com" title="This will direct you to Google Search">Search Something</a>
+</body>
+</html>

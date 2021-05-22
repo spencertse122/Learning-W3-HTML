@@ -1,4 +1,4 @@
-# W3-HTML
+# W3 HTML Tutorial
 
 ## Introduction
 Following a recent personal interest in learning how to build web apps, this is some follow-along exercise from W3 HTML tutorials.
